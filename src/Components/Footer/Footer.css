@@ -1,0 +1,70 @@
+.footer{
+    background-color:  #53585C;
+    color: white;
+  }
+  .footer p{
+    font-size: 16px !important;
+  }
+  .footer{
+    font-size: 16px !important;
+  }
+  .copy{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  
+  .footerLinks
+  {
+    color: #808080;;
+    display: block;
+    width: 100%;
+  }
+  .footerLinks:hover
+  {
+    color: #ed2232;
+    transition-duration: .5s;
+    transition-timing-function: linear;    
+  }
+  .footerActiveLinks{
+    color: #ed2232;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* this will center the content horizontally */
+    justify-content: center; /* this will center the content vertically */
+    text-align: center; /* this will center the text inside its container */
+  }
+  @media (max-width: 767px) {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .footer .container {
+      width: 100%;
+      max-width: none;
+    }
+    
+    .footer .row {
+      flex-wrap: wrap;
+    }
+    
+    .footer .col-lg-4 {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  li.mb-2 a {
+    color: #afafaf; /* default color */
+  }
+  
+  li.mb-2 a:hover {
+    color: white; /* color on hover */
+  }
+  
